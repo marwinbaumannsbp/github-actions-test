@@ -5,13 +5,10 @@ on:
     branches:
       - master
       - main
-  pull_request:
   
 permissions:
       # write permission is required to create a github release
       contents: write
-      # write permission is required for autolabeler
-      pull-requests: write
 
 jobs:
   draft:
