@@ -44,7 +44,7 @@ autolabeler:
       - '*.md'
     title:
       - '/documentation/i'
-      - '/docsi'
+      - '/docs/i'
   - label: 'bug'
     body:
       - '/bug/'
@@ -60,6 +60,7 @@ autolabeler:
       - '/enhancement\/.+/'
     title:
       - '/feature/i'
+      - '/feat/i'
       - '/enhancement/i'
   - label: 'breaking'
     body:
