@@ -48,7 +48,7 @@ To install the pre-commit hooks to run before each commit:
 
 3. When ready to publish the release, we use the drafted release note to do so.
 
-## PR Convention
+## Contributing Guidelines
 
 Release drafter categorizes the changes in the release into Features, Bug Fixes, Documentation and Other Changes categories as per the labels added to the PR. Add one or multiple of the following labels to the PR:
 

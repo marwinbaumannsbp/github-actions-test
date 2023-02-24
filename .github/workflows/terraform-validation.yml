@@ -12,7 +12,6 @@ env:
 
 jobs:
   fmt-lint-validate:
-    name: "Terraform"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -147,12 +146,3 @@ jobs:
           output_format: sarif
           quiet: true
           soft_fail: false
-
-  linelint:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Linelint
-        uses: fernandrone/linelint@0.0.4
