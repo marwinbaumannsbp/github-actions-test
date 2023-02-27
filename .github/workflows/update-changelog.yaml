@@ -3,7 +3,7 @@ name: "update-changelog"
 on:
   release:
     types:
-      - released
+      - published
 
 permissions:
       contents: write
