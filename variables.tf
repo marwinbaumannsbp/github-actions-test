@@ -29,7 +29,7 @@ variable "name" {
 
 variable "path" {
   type        = string
-  default     = "/"
+  default     = "/platformm"
   description = "Path in which to create the user."
 }
 
