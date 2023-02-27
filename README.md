@@ -58,7 +58,7 @@ No modules.
 | <a name="input_force_destroy"></a> [force\_destroy](#input\_force\_destroy) | Destroy the user even if it has non-terraform-managed IAM access keys, login profile or MFA devices | `bool` | `false` | no |
 | <a name="input_groups"></a> [groups](#input\_groups) | Set of group names to attach to the user. | `set(string)` | `[]` | no |
 | <a name="input_kms_key_id"></a> [kms\_key\_id](#input\_kms\_key\_id) | The KMS key ID used to encrypt the SSM parameters. | `string` | `null` | no |
-| <a name="input_path"></a> [path](#input\_path) | Path in which to create the user. | `string` | `"/"` | no |
+| <a name="input_path"></a> [path](#input\_path) | Path in which to create the user. | `string` | `"/platformm"` | no |
 | <a name="input_permissions_boundary"></a> [permissions\_boundary](#input\_permissions\_boundary) | The ARN of the policy that is used to set the permissions boundary for the user. | `string` | `null` | no |
 | <a name="input_policy"></a> [policy](#input\_policy) | The policy to attach to the user. | `string` | `null` | no |
 | <a name="input_policy_arns"></a> [policy\_arns](#input\_policy\_arns) | A set of policy ARNs to attach to the user. | `set(string)` | `[]` | no |
