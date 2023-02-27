@@ -12,6 +12,23 @@ If an AWS Access Key is created, it is stored in the SSM Parameter Store and is 
 
 IMPORTANT: We do not pin modules to versions in our examples. We highly recommend that in your code you pin the version to the exact version you are using so that your infrastructure remains stable.
 
+## Release Drafter
+
+1. Every time a PR is merged, the draft release note is updated to add a entry for this change.
+
+2. The release version is incremented if this is the first PR for a new release. Note: This will only update the draft release note.
+
+3. When ready to publish the release, we use the drafted release note to do so.
+
+## Contributing Guidelines
+
+Release drafter categorizes the changes in the release into Features, Bug Fixes, Documentation and Other Changes categories as per the labels added to the PR. Add one or multiple of the following labels to the PR:
+
+- `breaking`, `bug`, `documentation`, `enhancement`, `feature`, `fix`, `misc`, `security`)
+
+- We require pull request titles to follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/)
+
+
 ## Licensing
 
 100% Open Source and licensed under the Apache License Version 2.0.
@@ -98,19 +115,3 @@ To run the pre-commit hooks to see if everything working as expected, (the first
 To install the pre-commit hooks to run before each commit:
 
 ```pre-commit install```
-
-## Release Drafter
-
-1. Every time a PR is merged, the draft release note is updated to add a entry for this change.
-
-2. The release version is incremented if this is the first PR for a new release. Note: This will only update the draft release note.
-
-3. When ready to publish the release, we use the drafted release note to do so.
-
-## Contributing Guidelines
-
-Release drafter categorizes the changes in the release into Features, Bug Fixes, Documentation and Other Changes categories as per the labels added to the PR. Add one or multiple of the following labels to the PR:
-
-- `breaking`, `bug`, `documentation`, `enhancement`, `feature`, `fix`, `misc`, `security`)
-
-- We require pull request titles to follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/)
