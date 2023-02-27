@@ -111,6 +111,6 @@ To install the pre-commit hooks to run before each commit:
 
 Release drafter categorizes the changes in the release into Features, Bug Fixes, Documentation and Other Changes categories as per the labels added to the PR. Add one or multiple of the following labels to the PR:
 
-- `breaking`, `enhancement`, `feature`, `bug`, `fix`, `security`, `documentation`)
+- `breaking`, `bug`, `documentation`, `enhancement`, `feature`, `fix`, `misc`, `security`)
 
 - We require pull request titles to follow the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/)
